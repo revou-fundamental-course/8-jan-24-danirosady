@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    background: #25252b;
 }
 
 header {
@@ -28,6 +29,23 @@ button {
     color: azure;
     border: none;
     border-radius: 5px;
-    padding: 4px 2px;
+    padding: 2px 4px;
+    cursor: pointer;
 }
 
+button:hover {
+    background-color: rgb(70, 117, 119);
+}
+
+button:active {
+    background-color: rgb(67, 111, 112);
+    transform: translateY(2px);
+}
+
+.persegi {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: repeating-conic-gradient(#ff2770 0%,
+     #ff2770 5%, transparent 5%, transparent 40%, #ff2770 50%);
+}
