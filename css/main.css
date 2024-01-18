@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.inputSection {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#nilai {
+    outline: none;
+    border-radius: 8px;
+    border: solid cadetblue;
+    padding: 5px;
+}
+
+#nilai:focus {
+    border: solid #25252b;
+}
+
+button {
+    background-color: cadetblue;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 2px;
+}
+
